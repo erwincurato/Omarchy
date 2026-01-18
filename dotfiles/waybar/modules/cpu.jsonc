@@ -15,8 +15,9 @@
 			"critical": 90
 		},
 		// "on-click":
+		"on-click": "omarchy-launch-or-focus-tui btop",
 		// "on-click-middle":
-		// "on-click-right":
+		"on-click-right": "alacritty",
 		// "on-update":
 		// "on-scroll-up":
 		// "on-scroll-down":

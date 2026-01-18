@@ -2,15 +2,16 @@
 	"clock#time": {
 		// "interval":
 		"format": "{:%H:%M}",
+		"format-alt": "{:L%a}",
 		// "timezone":
 		// "timezones":
 		// "locale":
 		"min-length": 5,
-		"max-length": 5,
+		"max-length": 12,
 		// "rotate": 0,
 		// "on-click":
 		// "on-click-middle":
-		// "on-click-right":
+		"on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select",
 		// "on-scroll-up":
 		// "on-scroll-down":
 		// "smooth-scrolling-threshold":

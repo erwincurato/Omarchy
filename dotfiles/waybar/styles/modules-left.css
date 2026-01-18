@@ -2,8 +2,12 @@
     username
 --------------*/
 
+#custom-trigger {
+	margin-right: 12px;
+}
+
 #custom-user {
-	padding-right: 12px;
+	padding-right: 18px;
 }
 
 /*----------------
