@@ -17,7 +17,8 @@
 }
 
 #waybar {
-	background-color: @outline;
+	background-color: transparent;
+	font-size: 12px;
 }
 #waybar > box {
 	margin: 4px;
@@ -27,7 +28,7 @@
 button {
 	border-radius: 16px;
 	min-width: 16px;
-	padding: 0 10px;
+	padding: 0 6px;
 }
 button:hover {
 	background-color: @hover-bg;
