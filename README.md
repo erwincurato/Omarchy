@@ -6,6 +6,13 @@ This repo contains my Omarchy post-install setup with personal dotfiles.
 
 ---
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/078a9494-dc37-4ee7-87f1-2856d8943b5a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28faef95-ba62-4f51-b454-13d59545296e" />
+<img width="1915" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba3b1b67-0240-4796-8cc2-ff4957fb991e" />
+
+
+
+
 ## What this setup does
 
 1. **Install Omarchy** using the official installer.  
