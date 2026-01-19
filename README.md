@@ -5,11 +5,9 @@ This repo contains my Omarchy post-install setup with personal dotfiles.
 **Status:** In Progress
 
 ---
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/078a9494-dc37-4ee7-87f1-2856d8943b5a" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28faef95-ba62-4f51-b454-13d59545296e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac52d359-9f85-436b-a52c-05bc565c4db8" />
 <img width="1915" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba3b1b67-0240-4796-8cc2-ff4957fb991e" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40451dc9-fc48-4ed2-9050-34d22bcd4488" />
 
 
 
