@@ -5,14 +5,14 @@
 OMARCHY_BIN="$HOME/.local/share/omarchy/bin"
 WRAPPER_SRC="$HOME/Files/omarchy-setup/scripts/omarchy-plymouth-set"
 WRAPPER_DST="$OMARCHY_BIN/omarchy-plymouth-set"
-DEYMN_GRAY="/usr/local/share/deymn-plymouth/logo-gray.png"
+DEYMN_GRAY="/usr/local/share/deymn-plymouth/logov2_gray.png"
 THEME_DIR="/usr/share/plymouth/themes/omarchy"
 SDDM_DIR="/usr/share/sddm/themes/omarchy"
 STAGING="/tmp/deymn-lock-recolor"
 
 # Fallback: try repo if persistent backup missing
 if [[ ! -f "$DEYMN_GRAY" ]]; then
-  REPO_GRAY="$HOME/Files/omarchy-setup/assets/logo/logo-gray.png"
+  REPO_GRAY="$HOME/Files/omarchy-setup/assets/logo/logov2_gray.png"
   [[ -f "$REPO_GRAY" ]] && DEYMN_GRAY="$REPO_GRAY"
 fi
 
