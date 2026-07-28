@@ -68,3 +68,11 @@ else
 fi
 
 echo "DEYMN lock logo restored ($accent)."
+
+# 3. Restore fastfetch logo_vertical if overwritten
+LOGO_VERT="$HOME/.config/omarchy/branding/logo_vertical"
+REPO_LOGO_VERT="$HOME/Files/omarchy-setup/dotfiles/omarchy/branding/logo_vertical"
+if [[ ! -f "$LOGO_VERT" ]] && [[ -f "$REPO_LOGO_VERT" ]]; then
+  cp "$REPO_LOGO_VERT" "$LOGO_VERT"
+  echo "logo_vertical restored for fastfetch."
+fi
