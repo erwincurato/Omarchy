@@ -26,9 +26,9 @@ This is my personal Omarchy setup — my copy in case I switch to a different ma
    - Backups are stored in `~/Projects/omarchy-backups/YYYY-MM-DD_HH-MM-SS`
    - A symlink `latest` points to the most recent backup.
 3. **Apply personal dotfiles** by copying them into `~/.config/`.
-4. **Install DEYMN lock wrapper** — patches `omarchy-plymouth-set` so every theme change recolors the lock logo with the current accent. Also offers to apply the logo immediately (requires sudo).
-5. **Apply screensaver branding** — ASCII art from `dotfiles/omarchy/branding/screensaver.txt` appears when the screensaver activates.
-6. **Prompt for symlinks** — after dotfiles are applied, the script asks if you want direct symlinks from the repo to `~/.config/` for instant updates.
+ 4. **Install DEYMN lock wrapper** — replaces `omarchy-plymouth-set` so every theme change recolors the DEYMN lock logo (`logov2_gray.png`) with the current accent. Also offers to apply the logo immediately (requires sudo).
+ 5. **Apply screensaver branding** — ASCII art from `dotfiles/omarchy/branding/screensaver.txt` appears with random `tte` effects when the screensaver activates.
+ 6. **Prompt for symlinks** — after dotfiles are applied, the script asks if you want direct symlinks from the repo to `~/.config/` for instant updates.
 
 ## How to install
 
