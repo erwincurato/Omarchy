@@ -56,7 +56,12 @@ fi
 # 4.6 Apply the DEYMN logo now (copies to system + persistent backup)
 read -rp "Apply DEYMN logo to the unlock/lock screen? This requires sudo. (y/N): " APPLY_LOGO
 if [[ "$APPLY_LOGO" =~ ^[Yy]$ ]]; then
-  "$PWD/scripts/apply-deymn-lock.sh"
+  # Seed persistent backup
+  sudo mkdir -p /usr/local/share/deymn-plymouth
+  sudo cp "$PWD/assets/logo/logov2_gray.png" /usr/local/share/deymn-plymouth/logov2_gray.png
+  # Trigger a style change to deploy the logo
+  "$OMARCHY_BIN/omarchy-plymouth-set-by-theme" "$(cat "$HOME/.config/omarchy/current/theme.name")"
+  echo "DEYMN lock logo applied."
 fi
 
 # 5. Ask if user wants to create symlinks
