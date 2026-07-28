@@ -3,7 +3,7 @@ set -e
 
 BIN_DIR="$(dirname "$0")"
 ORIGINAL="$BIN_DIR/omarchy-plymouth-set.orig"
-DEYMN_GRAY="/usr/local/share/deymn-plymouth/logo-gray.png"
+DEYMN_GRAY="/usr/local/share/deymn-plymouth/logov2_gray.png"
 THEME_DIR="/usr/share/plymouth/themes/omarchy"
 SDDM_DIR="/usr/share/sddm/themes/omarchy"
 STAGING="/tmp/deymn-lock-recolor"
@@ -17,12 +17,12 @@ fi
 "$ORIGINAL" "$@"
 
 if [[ ! -f "$DEYMN_GRAY" ]]; then
-  REPO_GRAY="$HOME/Files/omarchy-setup/assets/logo/logo-gray.png"
+  REPO_GRAY="$HOME/Files/omarchy-setup/assets/logo/logov2_gray.png"
   if [[ -f "$REPO_GRAY" ]]; then
     DEYMN_GRAY="$REPO_GRAY"
     # Seed the persistent backup for next time
     sudo mkdir -p /usr/local/share/deymn-plymouth
-    sudo cp "$DEYMN_GRAY" /usr/local/share/deymn-plymouth/logo-gray.png
+    sudo cp "$DEYMN_GRAY" /usr/local/share/deymn-plymouth/logov2_gray.png
   else
     echo "Warning: DEYMN gray template not found." >&2
     exit 0
